@@ -1,11 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: test-jsonschema
+  name: test2-jsonschema
   description: Tests how a schema looks
 spec:
   type: grpc
   lifecycle: production
   owner: team-b
   definition:
-    $text: https://github.com/JustinMason/test/blob/master/all-components.yaml
+    $text: https://github.com/stackpath/dataeng-infra/blob/main/apps/log-streaming/vector/sp_default_schema_transform_limited.ts
