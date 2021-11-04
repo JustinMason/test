@@ -13,3 +13,4 @@ spec:
     - ./apis/wayback-archive-api.yaml
     - ./apis/wayback-search-api.yaml
     - ./apis/test.yaml
+    - ./apis/test2.yaml
