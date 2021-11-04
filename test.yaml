@@ -4,7 +4,7 @@ metadata:
   name: test-jsonschema
   description: Tests how a schema looks
 spec:
-  type: json
+  type: grpc
   lifecycle: deprecated
   definition: |
   {
