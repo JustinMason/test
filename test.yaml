@@ -1,0 +1,521 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: test-jsonschema
+  description: Tests how a schema looks
+spec:
+  type: json
+  lifecycle: deprecated
+  definition: |
+  {
+    "definitions": {},
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://stackpath.com/10/2021/cdn-default-access-log.json",
+    "title": "Root",
+    "type": "object",
+    "required": [
+        "accounthash",
+        "account-hierarchy",
+        "attempted-bytes",
+        "box",
+        "c-ip",
+        "c-port",
+        "cache-hit",
+        "country",
+        "cs-bytes",
+        "cs-method",
+        "cs-referrer",
+        "cs-uri-query",
+        "cs-uri-steam",
+        "cs-user-agent",
+        "cs-version",
+        "date",
+        "filesize",
+        "host-header",
+        "obfuscated-c-ip",
+        "op-id",
+        "pop-location",
+        "pop-region",
+        "request-id",
+        "response-content-length",
+        "response-content-range",
+        "response-context-type",
+        "response-fbt",
+        "response-last-modified",
+        "s-ip",
+        "sc-body-bytes-sent",
+        "sc-bytes",
+        "sc-status",
+        "server-port",
+        "sitehash",
+        "time",
+        "time-taken",
+        "time-taken-ms",
+        "timestamp",
+        "unixtime",
+        "vendor-id",
+        "via-info",
+        "x-byte-range",
+        "x-forwarded-for",
+        "x-hw",
+        "cs-origin"
+    ],
+    "properties": {
+        "accounthash": {
+            "$id": "#root/accounthash",
+            "title": "Accounthash",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "account hash"
+            ],
+            "pattern": "^.*$"
+        },
+        "account-hierarchy": {
+            "$id": "#root/account-hierarchy",
+            "title": "Account-hierarchy",
+            "type": "array",
+            "default": [],
+            "items":{
+                "$id": "#root/account-hierarchy/items",
+                "title": "Items",
+                "type": "string",
+                "default": "",
+                "examples": [
+                    "account hierarchy"
+                ],
+                "pattern": "^.*$"
+            }
+        },
+        "attempted-bytes": {
+            "$id": "#root/attempted-bytes",
+            "title": "Attempted-bytes",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "attempted-bytes value"
+            ],
+            "pattern": "^.*$"
+        },
+        "box": {
+            "$id": "#root/box",
+            "title": "Box",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "box value"
+            ],
+            "pattern": "^.*$"
+        },
+        "c-ip": {
+            "$id": "#root/c-ip",
+            "title": "C-ip",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "c-ip value"
+            ],
+            "pattern": "^.*$"
+        },
+        "c-port": {
+            "$id": "#root/c-port",
+            "title": "C-port",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "c-port value"
+            ],
+            "pattern": "^.*$"
+        },
+        "cache-hit": {
+            "$id": "#root/cache-hit",
+            "title": "Cache-hit",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "cache-hit value"
+            ],
+            "pattern": "^.*$"
+        },
+        "country": {
+            "$id": "#root/country",
+            "title": "Country",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "country value"
+            ],
+            "pattern": "^.*$"
+        },
+        "cs-bytes": {
+            "$id": "#root/cs-bytes",
+            "title": "Cs-bytes",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "cs-bytes value"
+            ],
+            "pattern": "^.*$"
+        },
+        "cs-method": {
+            "$id": "#root/cs-method",
+            "title": "Cs-method",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "cs-method value"
+            ],
+            "pattern": "^.*$"
+        },
+        "cs-referrer": {
+            "$id": "#root/cs-referrer",
+            "title": "Cs-referrer",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "cs-referrer value"
+            ],
+            "pattern": "^.*$"
+        },
+        "cs-uri-query": {
+            "$id": "#root/cs-uri-query",
+            "title": "Cs-uri-query",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "cs-uri-query value"
+            ],
+            "pattern": "^.*$"
+        },
+        "cs-uri-steam": {
+            "$id": "#root/cs-uri-steam",
+            "title": "Cs-uri-steam",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "cs-uri-steam value"
+            ],
+            "pattern": "^.*$"
+        },
+        "cs-user-agent": {
+            "$id": "#root/cs-user-agent",
+            "title": "Cs-user-agent",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "cs-user-agent value"
+            ],
+            "pattern": "^.*$"
+        },
+        "cs-version": {
+            "$id": "#root/cs-version",
+            "title": "Cs-version",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "cs-version value"
+            ],
+            "pattern": "^.*$"
+        },
+        "date": {
+            "$id": "#root/date",
+            "title": "Date",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "date value"
+            ],
+            "pattern": "^.*$"
+        },
+        "filesize": {
+            "$id": "#root/filesize",
+            "title": "Filesize",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "filesize value"
+            ],
+            "pattern": "^.*$"
+        },
+        "host-header": {
+            "$id": "#root/host-header",
+            "title": "Host-header",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "host-header value"
+            ],
+            "pattern": "^.*$"
+        },
+        "obfuscated-c-ip": {
+            "$id": "#root/obfuscated-c-ip",
+            "title": "Obfuscated-c-ip",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "obfuscated-c-ip value"
+            ],
+            "pattern": "^.*$"
+        },
+        "op-id": {
+            "$id": "#root/op-id",
+            "title": "Op-id",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "op-id value"
+            ],
+            "pattern": "^.*$"
+        },
+        "pop-location": {
+            "$id": "#root/pop-location",
+            "title": "Pop-location",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "pop-location value"
+            ],
+            "pattern": "^.*$"
+        },
+        "pop-region": {
+            "$id": "#root/pop-region",
+            "title": "Pop-region",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "pop-region value"
+            ],
+            "pattern": "^.*$"
+        },
+        "request-id": {
+            "$id": "#root/request-id",
+            "title": "Request-id",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "request-id value"
+            ],
+            "pattern": "^.*$"
+        },
+        "response-content-length": {
+            "$id": "#root/response-content-length",
+            "title": "Response-content-length",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "response-content-length value"
+            ],
+            "pattern": "^.*$"
+        },
+        "response-content-range": {
+            "$id": "#root/response-content-range",
+            "title": "Response-content-range",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "response-content-range value"
+            ],
+            "pattern": "^.*$"
+        },
+        "response-context-type": {
+            "$id": "#root/response-context-type",
+            "title": "Response-context-type",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "response-context-type value"
+            ],
+            "pattern": "^.*$"
+        },
+        "response-fbt": {
+            "$id": "#root/response-fbt",
+            "title": "Response-fbt",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "response-fbt value"
+            ],
+            "pattern": "^.*$"
+        },
+        "response-last-modified": {
+            "$id": "#root/response-last-modified",
+            "title": "Response-last-modified",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "response-last-modified value"
+            ],
+            "pattern": "^.*$"
+        },
+        "s-ip": {
+            "$id": "#root/s-ip",
+            "title": "S-ip",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "s-ip value"
+            ],
+            "pattern": "^.*$"
+        },
+        "sc-body-bytes-sent": {
+            "$id": "#root/sc-body-bytes-sent",
+            "title": "Sc-body-bytes-sent",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "sc-body-bytes-sent value"
+            ],
+            "pattern": "^.*$"
+        },
+        "sc-bytes": {
+            "$id": "#root/sc-bytes",
+            "title": "Sc-bytes",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "sc-bytes value"
+            ],
+            "pattern": "^.*$"
+        },
+        "sc-status": {
+            "$id": "#root/sc-status",
+            "title": "Sc-status",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "sc-status value"
+            ],
+            "pattern": "^.*$"
+        },
+        "server-port": {
+            "$id": "#root/server-port",
+            "title": "Server-port",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "server-port value"
+            ],
+            "pattern": "^.*$"
+        },
+        "sitehash": {
+            "$id": "#root/sitehash",
+            "title": "Sitehash",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "sitehash value"
+            ],
+            "pattern": "^.*$"
+        },
+        "time": {
+            "$id": "#root/time",
+            "title": "Time",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "time value"
+            ],
+            "pattern": "^.*$"
+        },
+        "time-taken": {
+            "$id": "#root/time-taken",
+            "title": "Time-taken",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "time-taken value"
+            ],
+            "pattern": "^.*$"
+        },
+        "time-taken-ms": {
+            "$id": "#root/time-taken-ms",
+            "title": "Time-taken-ms",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "time-taken-ms value"
+            ],
+            "pattern": "^.*$"
+        },
+        "timestamp": {
+            "$id": "#root/timestamp",
+            "title": "Timestamp",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "2021-11-02T14:16:50.258282Z"
+            ],
+            "pattern": "^.*$"
+        },
+        "unixtime": {
+            "$id": "#root/unixtime",
+            "title": "Unixtime",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "unixtime value"
+            ],
+            "pattern": "^.*$"
+        },
+        "vendor-id": {
+            "$id": "#root/vendor-id",
+            "title": "Vendor-id",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "cs-origin"
+            ],
+            "pattern": "^.*$"
+        },
+        "via-info": {
+            "$id": "#root/via-info",
+            "title": "Via-info",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "via-info value"
+            ],
+            "pattern": "^.*$"
+        },
+        "x-byte-range": {
+            "$id": "#root/x-byte-range",
+            "title": "X-byte-range",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "x-byte-range value"
+            ],
+            "pattern": "^.*$"
+        },
+        "x-forwarded-for": {
+            "$id": "#root/x-forwarded-for",
+            "title": "X-forwarded-for",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "x-forwarded-for value"
+            ],
+            "pattern": "^.*$"
+        },
+        "x-hw": {
+            "$id": "#root/x-hw",
+            "title": "X-hw",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "x-hw value"
+            ],
+            "pattern": "^.*$"
+        },
+        "cs-origin": {
+            "$id": "#root/cs-origin",
+            "title": "Cs-origin",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "cs-origin value"
+            ],
+            "pattern": "^.*$"
+        }
+    }
+  }
