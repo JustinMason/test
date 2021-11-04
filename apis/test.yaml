@@ -6,5 +6,6 @@ metadata:
 spec:
   type: grpc
   lifecycle: production
+  owner: team-b
   definition:
     $text: https://github.com/JustinMason/test/blob/master/all-components.yaml
