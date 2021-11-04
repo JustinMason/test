@@ -8,4 +8,4 @@ spec:
   lifecycle: production
   owner: team-b
   definition:
-    $text: https://github.com/JustinMason/test/blob/master/all-components.yaml
+    $text: https://github.com/stackpath/dataeng-infra/blob/main/apps/log-streaming/vector/sp_default_schema_transform_limited.ts
